@@ -13,7 +13,7 @@ final_results={}
         if !final_array[name][key]
           !final_array[name][key] = []
         end
-  final_results = final_array[name][key].push(inner_key)
+        final_results = final_array[name][key].push(inner_key)
         end
     end
   end
